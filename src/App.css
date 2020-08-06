@@ -1,38 +1,109 @@
-.App {
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: #242585;
+}
+
+.header {
+  margin: 15px;
+  margin-bottom: 10px;
+  background-color: #f64c72;
+  height: 70px;
+  border-radius: 5px;
+}
+
+.header h1 {
+  font-weight: 300;
+  font-size: 42px;
   text-align: center;
+  margin: 10px px 10px 0px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: #f64c72;
+  height: 45px;
+  margin: 15px;
+  border-radius: 5px;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar ul {
+  list-style: none;
+  text-align: center;
+  margin: 10px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar ul li {
+  display: inline;
+  font-size: 140%;
+  padding: 0;
+}
+.navbar ul li a {
+  padding: 14px;
+  text-decoration: none;
+  color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar ul li a:hover {
+  background-color: black;
+  color: #f64c72;
+  border-radius: 3px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main {
+  margin: 15px 330px 15px 15px;
+  background-color: #99738e;
+  padding: 10px;
+  line-height: 25px;
+  border-radius: 5px;
+  height: 721px;
+}
+
+.sidebar {
+  float: right;
+  width: 260px;
+  padding: 20px;
+  margin: 0 15px 15px 15px;
+  background-color: #99738e;
+  border-radius: 5px;
+  clear: right;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  line-height: 25px;
+}
+
+.image img {
+  width: 296px;
+  float: right;
+  border: 2px solid black;
+  clear: right;
+  margin: 0 15px 15px 15px;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #f64c72;
+  height: 35px;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  font-size: 90%;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.notFound:hover {
+  color: #f64c72;
 }
