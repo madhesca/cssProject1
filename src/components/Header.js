@@ -10,19 +10,64 @@ function Header() {
       <div className="navbar">
         <ul>
           <li>
-            <NavLink to="/home">Home</NavLink>
+            <NavLink
+              activeStyle={{
+                backgroundColor: "black",
+                color: "#f64c72",
+                borderRadius: "5px",
+              }}
+              to="/home"
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/lebron">Lebron</NavLink>
+            <NavLink
+              activeStyle={{
+                backgroundColor: "black",
+                color: "#f64c72",
+                borderRadius: "5px",
+              }}
+              to="/lebron"
+            >
+              Lebron
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/curry">Curry</NavLink>
+            <NavLink
+              activeStyle={{
+                backgroundColor: "black",
+                color: "#f64c72",
+                borderRadius: "5px",
+              }}
+              to="/curry"
+            >
+              Curry
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/wade">Wade</NavLink>
+            <NavLink
+              activeStyle={{
+                backgroundColor: "black",
+                color: "#f64c72",
+                borderRadius: "5px",
+              }}
+              to="/wade"
+            >
+              Wade
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/shaq">Shaq</NavLink>
+            <NavLink
+              activeStyle={{
+                backgroundColor: "black",
+                color: "#f64c72",
+                borderRadius: "5px",
+              }}
+              to="/shaq"
+            >
+              Shaq
+            </NavLink>
           </li>
           <li></li>
           <li></li>
